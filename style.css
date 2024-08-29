@@ -1,0 +1,42 @@
+.card{
+    display: flex;
+    background-color: black;
+    height: 120px;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 2px;
+}
+.img{
+    position: relative;
+}
+.thumbnail{
+    width: 200px;
+    border-radius: 10px;
+}
+.duration{
+    position:absolute;
+    bottom:10px;
+    left: 140px;
+    width: 50px;
+    height: 20px;
+    border: 2px solid rgba(0, 0, 0, 0.521);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.749);
+   
+    color: white;
+    border-radius: 5px;
+}
+.title{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.details{
+    color: grey;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-left: 10px;
+}
